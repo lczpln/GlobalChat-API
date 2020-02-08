@@ -13,4 +13,4 @@ app.use(cors());
 app.use(express.json());
 app.use(require("./routes"));
 
-app.listen(3001, () => console.log("Server ON :)"));
+app.listen( process.env.PORT || 3001, () => console.log("Server ON :)"));
