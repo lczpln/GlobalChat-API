@@ -1,5 +1,5 @@
 /**
- * Function to make crud automatcaly
+ * Function to make crud automatcly
  * @path A url path => ex: (/users)
  * @router Param of express.js
  * @model A mongoose Model
